@@ -30,7 +30,9 @@ export class Utilities {
             pointColor: this.queryString.point
                 ? this.queryString.point
                 : selectColors(theme).pointColor,
-            labelColor: this.queryString.label_color ?? selectColors(theme).labelColor,
+            labelColor: this.queryString.label_color
+                ? this.queryString.label_color
+                : selectColors(theme).labelColor,
         };
     }
 
