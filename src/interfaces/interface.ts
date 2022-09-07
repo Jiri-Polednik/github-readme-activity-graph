@@ -12,6 +12,7 @@ export class Colors {
     color: string;
     lineColor: string;
     pointColor: string;
+    labelColor: string;
 }
 
 export class QueryOption {
@@ -36,6 +37,7 @@ export class ParsedQs {
     theme?: string;
     area?: boolean;
     radius?: number;
+    labelColor?: string;
 }
 
 export class GraphArgs {

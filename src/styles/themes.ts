@@ -10,6 +10,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'f8f8f2',
                 lineColor: 'ff79c6',
                 pointColor: 'bd93f9',
+                labelColor: 'f8f8f2',
             };
         case 'gruvbox':
             return {
@@ -19,6 +20,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'd4be98',
                 lineColor: 'd8a657',
                 pointColor: 'e78a4e',
+                labelColor: 'd4be98',
             };
         case 'github':
             return {
@@ -28,6 +30,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'ffffff',
                 lineColor: '9ecbff',
                 pointColor: 'f97583',
+                labelColor: 'ffffff',
             };
         case 'gotham':
             return {
@@ -37,6 +40,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '2aa889',
                 lineColor: '599cab',
                 pointColor: '99d1ce',
+                labelColor: '2aa889',
             };
         case 'rogue':
             return {
@@ -46,6 +50,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'a3b09a',
                 lineColor: 'b18bb1',
                 pointColor: 'c6797e',
+                labelColor: 'a3b09a',
             };
         case 'xcode':
             return {
@@ -55,6 +60,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'fcfcfa',
                 lineColor: 'c4e3ff',
                 pointColor: 'ff8070',
+                labelColor: 'fcfcfa',
             };
         case 'redical':
             return {
@@ -64,6 +70,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'a9fef7',
                 lineColor: 'fe428e',
                 pointColor: 'f8d847',
+                labelColor: 'a9fef7',
             };
         case 'coral':
             return {
@@ -73,6 +80,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'f9fae9',
                 lineColor: 'f4e23d',
                 pointColor: 'f4e7e7',
+                labelColor: 'f9fae9',
             };
         case 'react-dark':
             return {
@@ -82,6 +90,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '5bcdec',
                 lineColor: '5bcdec',
                 pointColor: 'ffffff',
+                labelColor: '5bcdec',
             };
         case 'nord':
             return {
@@ -91,6 +100,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '88c0d0',
                 lineColor: '88c0d0',
                 pointColor: 'ffffff',
+                labelColor: '88c0d0',
             };
         case 'lucent':
             return {
@@ -100,6 +110,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '000000',
                 lineColor: 'ffd369',
                 pointColor: 'faf3e0',
+                labelColor: '000000',
             };
         case 'chartreuse-dark':
             return {
@@ -109,6 +120,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '7ffe00',
                 lineColor: '00adfe',
                 pointColor: '7ffe00',
+                labelColor: '7ffe00',
             };
         case 'github-light':
             return {
@@ -118,6 +130,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '000000',
                 lineColor: '9be9a8',
                 pointColor: '40c463',
+                labelColor: '000000',
             };
         case 'github-dark':
             return {
@@ -127,7 +140,8 @@ export const selectColors = (queryString: string): Colors => {
                 color: '58A6FF',
                 lineColor: '1F6FEB',
                 pointColor: '58A6FF',
-            };    
+                labelColor: '58A6FF',
+            };
         case 'minimal':
             return {
                 areaColor: 'd3e6fa',
@@ -136,6 +150,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '000000',
                 lineColor: 'd3e6fa',
                 pointColor: '3f99ed',
+                labelColor: '000000',
             };
         case 'material-palenight':
             return {
@@ -145,6 +160,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'a6accd',
                 lineColor: 'c792ea',
                 pointColor: '89ddff',
+                labelColor: 'a6accd',
             };
         case 'green':
             return {
@@ -154,6 +170,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '3a5a40',
                 lineColor: '588157',
                 pointColor: '344e41',
+                labelColor: '3a5a40',
             };
         case 'noctis-minimus':
             return {
@@ -163,6 +180,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'd3b692',
                 lineColor: '72b7c0',
                 pointColor: 'c5cdd3',
+                labelColor: 'd3b692',
             };
         case 'one-dark':
             return {
@@ -172,6 +190,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'abb2bf',
                 lineColor: 'e5c17c',
                 pointColor: 'e06c75',
+                labelColor: 'abb2bf',
             };
         case 'monokai':
             return {
@@ -181,6 +200,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'fcfcfa',
                 lineColor: 'ff6188',
                 pointColor: 'ffd866',
+                labelColor: 'fcfcfa',
             };
         case 'elegant':
             return {
@@ -190,6 +210,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'd8d5d5',
                 lineColor: 'fb8500',
                 pointColor: '42002b',
+                labelColor: 'd8d5d5',
             };
         case 'aqua':
             return {
@@ -199,6 +220,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '187177',
                 lineColor: '226d64',
                 pointColor: '156f69',
+                labelColor: '187177',
             };
         case 'synthwave-84':
             return {
@@ -208,6 +230,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: 'FF3CA2',
                 lineColor: 'F7F645',
                 pointColor: '22E5F4',
+                labelColor: 'FF3CA2',
             };
         default:
             return {
@@ -217,6 +240,7 @@ export const selectColors = (queryString: string): Colors => {
                 color: '9e4c98',
                 lineColor: '9e4c98',
                 pointColor: '403d3d',
+                labelColor: '9e4c98',
             };
     }
 };

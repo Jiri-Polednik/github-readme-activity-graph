@@ -9,7 +9,8 @@ export class Card {
         private readonly radius: number,
         private readonly colors: Colors,
         private readonly title = '',
-        private readonly area = false
+        private readonly area = false,
+        private readonly labelColor = ''
     ) {}
 
     private getOptions() {
@@ -67,13 +68,14 @@ export class Card {
             series: [{ value: days.map((day) => day.contributionCount) }],
         });
 
-        //Arguments to construct graphs with rect and other options
+        //Arguments to construct graphs with react and other options
         const args = {
             height: this.height,
             width: this.width,
             colors: this.colors,
             title: this.title,
             radius: this.radius,
+            labelColor: this.labelColor,
             line,
         };
 

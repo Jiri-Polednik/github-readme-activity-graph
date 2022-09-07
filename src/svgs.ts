@@ -34,7 +34,8 @@ export const graphSvg = (props: GraphArgs) => `
                     props.colors.color,
                     props.colors.lineColor,
                     props.colors.pointColor,
-                    props.colors.areaColor
+                    props.colors.areaColor,
+                    props.colors.labelColor,
                 )}
                 ${pointAnimation()}
                 ${lineAnimation()}
