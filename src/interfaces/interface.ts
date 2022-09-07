@@ -37,7 +37,7 @@ export class ParsedQs {
     theme?: string;
     area?: boolean;
     radius?: number;
-    labelColor?: string;
+    label_color?: string;
 }
 
 export class GraphArgs {
