@@ -1,14 +1,8 @@
-export const graphStyle = (
-    color: string,
-    line: string,
-    point: string,
-    area: string,
-    labelColor: string
-) =>
+export const graphStyle = (color: string, line: string, point: string, area: string) =>
     `
     .ct-label {
       fill: #${color};
-      color: #${labelColor};
+      color: #f8d847;
       font-size: .75rem;
       line-height: 1;
     }
